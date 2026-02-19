@@ -4,7 +4,19 @@ Answer: Git is a version control system. It contains the code you are writing on
 2. How to setup git 
 Answer: Download git from git official website then install it.
 
-Command Prompt: 
+3. Git configuration
+Command Prompt: (To tell git who you are)
+
+1. git config --global user.name "your name"
+2. git config --global user.email "your email"
+3. git config --global user.password "your password"
+4. git config --global core.editor "code --wait" (set vs code default to avoid scary vim editor, --wait to wait vs code untill you close)
+5. git config --global core.editor -e (Open to edit global config file in vs code)
+6. git config --global core.autocrlf true (to fix new line issue between windows and mac ios)
+
+
+
+Command Prompt: (To use git)
 1. git status (to check the current status)
 2. git init (to initiate git into the folder/rpository )
 3. git add . (to track/add all the changes to commit)
