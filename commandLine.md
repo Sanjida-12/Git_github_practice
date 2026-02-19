@@ -9,3 +9,6 @@ Command Prompt:
 2. git init (to initiate git into the folder/rpository )
 3. git add . (to track/add all the changes to commit)
 4. git commit -m"message" (to comment about your changes)
+5. git remote add origin "remote repository name (copy link from github)"
+6. git remote --v (to see the remote repository location if its added or not)
+6. git push -u origin master (only for 1st  time)
